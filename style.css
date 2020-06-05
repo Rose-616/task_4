@@ -1,0 +1,290 @@
+ .navbar{
+    background-color:#283593 !important;
+    
+   
+}
+.nav-link{
+    color: white !important;
+}
+.navbar a img{
+    width: 60px;
+    height: 40px;
+}
+.head1 h3{
+    justify-self: center;
+}
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.card1,.card2,.card3,.card4{
+    display: flex;
+    box-shadow: 2px 4px 8px grey;
+    width: 280px;
+    height: 100px;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    text-align: center;
+    border: 5px solid aquamarine;
+    margin-top: 20px;
+    
+   
+}
+.card_1,.card_2,.card_3{
+    
+    width:250px ;
+    border-radius: ;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    
+
+
+}
+.card_1 div p,.fa-book{
+    padding-bottom: 20px;
+
+}
+
+
+.fa-book,.fa-laptop,.fa-gift{
+    margin-top: 0px !important;
+    font-size: 40px !important;
+}
+.main_card{
+    height: 200px;
+    color:white ;
+    background-color:  	  #333333;
+    display: flex;
+    justify-content: space-around;
+}
+.head1{
+    margin-top: 20px;
+}
+div h3,.head1 h5,.head1 h2{
+    color: #283593;
+    text-shadow:2px 2px grey;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h5{
+   font-weight: bold;
+   color: #283593;
+   font-style: oblique !important;}
+   .btn-primary{
+width: 100%;
+   }
+
+  .card-img-top{
+      height:200px !important;
+      width: 275px !important;
+  } 
+   .card{
+       
+       width: 280px !important;
+       height:auto !important;
+       margin-bottom: 20px ;
+   }
+   .row{
+       justify-content: space-around;
+   }
+
+   .footer{
+       background-color: black;
+       color: green;
+     
+       display: flex;
+       justify-content: space-around;
+       
+   }
+    .ft_1{
+        padding-top: 20px;
+    }
+   .ft_1,.ft_2,.ft_3,.ft_4{
+       display: flex;
+       
+   }
+   .fa-phone,.fa-envelope{
+       margin-left: 10px;
+       margin-right: 5px;
+   }
+   
+   .cont_1,.cont_2,.cont_3{
+    padding-top: 20px;
+   }
+   
+
+   .cont_2 h6,.cont_1 h6{
+       font-size: 30px;
+
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook-square,.fa-twitter-square,.fa-youtube-square{
+    color:RoyalBlue;
+    
+}
+.fa-copyright,.c_logo div p{
+    color:white;
+}
+.footer_2{
+    background-color: blue;
+    
+    
+
+}
+.c_logo{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.fb,.twi,.you{
+    font-size: 20px;
+    margin:5px 10px 5px 10px  ;
+}
+
+@media only screen and (max-width: 600px) {
+   .footer{
+     flex-direction: column;
+
+   }
+   
+  }
+.imggall{
+    margin-bottom: 30px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.up div{
+        
+    margin: 30px 30px 50px 60px;
+     
+   
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+ 
+}
+#over{
+    color: #283593;
+}
+.overview,.car{
+    
+    margin-left: 70px;
+    
+}
+h1{
+    font-size: 32px;
+    color: #283593;
+}
+.card_car{
+    width: 500px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .overview{
+        width: 400px;
+    }
+    
+   }
+
+
+   /* career page */
+ 
+  .btn1{
+     align-self: center;
+     position: absolute;
+     left: 50%;
+     
+      bottom: 9em;
+     width:20% ;
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+ 
+  }
+
+  @media screen and (min-width: 600px) {
+    btn1 {
+     position: absolute;
+     left: 50%;
+     bottom: 20em !important;
+     width: 50px;
+
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    }
+  }
+
+   /* study form home */
+   table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+
+
+    .study{
+       text-align: center;
+       margin-top: 10px;
+    
+   } 
+  .tab{
+      border: 2px solid red;
+      
+      background-color: blanchedalmond;
+      
+  }
+  td{
+      
+      padding: 10px;
+      text-align: center;
+      width: 300px;
+      box-shadow:2px 5px  2px 5px grey;
+  }
+   
+  .fa-user-circle{
+      font-size: 20px !important;
+  }
+
+  
+
+.mapp{
+    margin-left: 10px;
+
+}
+.card_map_1{
+    width: 400px;
+}
